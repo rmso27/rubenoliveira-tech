@@ -1,7 +1,6 @@
 <header>
     <div class="header-container">
         <nav>
-            <a href="/about">/about</a>
             <a href="/projects">/projects</a>
             <a href="/blog">/blog</a>
         </nav>
@@ -53,17 +52,17 @@
     }
 
     .header-title {
-        padding: 1rem 0;
+        padding: 2rem 0;
         text-align: center;
     }
 
     .header-caption {
-        padding: 1rem 0;
+        padding: 2rem 0;
         text-align: center;
     }
 
     .header-social {
-        padding: 1rem 0;
+        padding: 2rem 0;
         display: flex;
         justify-content: center;
         gap: 1rem;
