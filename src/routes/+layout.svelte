@@ -1,6 +1,8 @@
 <script>
-    import Header from '$lib/components/Header.svelte';
+    import Navbar from '$lib/components/Navbar.svelte';
+    import Footer from '$lib/components/Footer.svelte';
 </script>
 
-<Header />
+<Navbar />
 <slot></slot>
+<Footer />

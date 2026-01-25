@@ -1,9 +1,4 @@
 <header>
-    <nav>
-        <a href="/">/home</a>
-        <a href="/projects">/projects</a>
-        <a href="/blog">/blog</a>
-    </nav>
     <div class = "banner">
         <div class="banner-container">
             <div class="banner-title">
@@ -14,7 +9,6 @@
             </div>
             <div class="banner-social">
                 <span><a href="https://github.com/rmso27">GitHub</a></span>
-                <span><a href="https://www.threads.net/@rubenoliveira.27">Threads</a></span>
                 <span><a href="https://www.linkedin.com/in/rubenmsoliveira/">LinkedIn</a></span>
             </div>
         </div>
@@ -24,46 +18,7 @@
 <style>
     header { 
         width: 100%;
-        margin-bottom: 2rem;
-        border-bottom: 1px dashed #292929;
-    }
-
-    nav {
-        padding: 2rem;
-        margin: 0 2rem 2rem 2rem; 
-    }
-
-    nav a {
-        margin-right: 1rem;
-        font-style: normal;
-        position: relative;
-        text-decoration: none;
-    }
-
-    nav a::after {
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: -5px;
-        width: 0;
-        height: 3px;
-        background: var(--highlight-color);
-        transition: width 0.3s ease;
-    }
-
-    nav a:hover::after {
-        width: 100%;
-    }
-
-    @media (max-width: 600px) {
-        nav  { text-align: center; }
-
-        nav a {
-            text-decoration: underline;
-            text-decoration-color: var(--highlight-color);
-            text-decoration-thickness: 3px;
-            text-underline-offset: 6px;
-        }
+        margin: 5rem 0;
     }
 
     .banner {
@@ -93,7 +48,7 @@
     }
 
     .banner-social span {
-        padding: 1.2rem 1.4rem;
+        padding: 1.1rem 1.3rem;
         background-color: #1C1C1C;
     }
 

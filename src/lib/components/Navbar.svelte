@@ -1,11 +1,13 @@
 <nav>
     <a href="/">/home</a>
     <a href="/projects">/projects</a>
-    <a href="/blog">/blog</a>
 </nav>
 
 <style>
-    nav { margin-bottom: 2rem; }
+    nav {
+        padding: 2rem;
+        margin: 0 2rem 2rem 2rem;
+    }
 
     nav a {
         margin-right: 1rem;

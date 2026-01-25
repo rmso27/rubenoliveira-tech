@@ -1,34 +1,38 @@
+<script>
+    import Header from "$lib/components/Header.svelte";
+</script>
+
+<Header />
+
 <div class="blog">
-    <div class="blog-container">
-        <div class="blog-title">
-            <h1>Blog</h1>
-        </div>
-        <div class="blog-post-entry">
-            <h2>Post 01</h2>
-            <p>Post 01 description</p>
-            <p><span>Topic</span></p>
-        </div>
+    <div class="blog-post">
+        <h2>Post 01</h2>
+        <p class = "date">01.01.2026</p>
+        <p>This is my first blog post</p>
+        <p><span>category</span></p>
     </div>
 </div>
 
 <style>
-    .blog { 
-        margin-bottom: 2rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .blog {
+        width: 100%;
+        padding: 2rem;
+        margin: 0 2rem 2rem 2rem;
     }
 
-    .blog-container { width: 70%; }
+    .blog-post p { padding: .5rem 0; }
 
-    .blog-title { padding: 2rem 0; }
+    .date {
+        font-size: 0.9rem;
+        color: gray;
+    }
 
     span {
-        margin: .2rem;
+        margin: .5rem 0;
         padding: .3rem .7rem;
         width: auto;
         border-radius: 10px;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         font-style: italic;
         background-color: var(--highlight-color);
     }
