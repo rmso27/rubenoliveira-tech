@@ -1,4 +1,9 @@
 {
-	"/": [],
+	"/": [
+		"src/routes/+page.js"
+	],
+	"/blog/posts/[slug]": [
+		"src/routes/blog/posts/[slug]/+page.js"
+	],
 	"/projects": []
 }
