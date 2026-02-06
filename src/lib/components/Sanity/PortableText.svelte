@@ -15,6 +15,8 @@
             <strong>{block.children[0].text}</strong>
         {:else if block.children[0].marks.includes('em')}
             <i>{block.children[0].text}</i>
+        {:else if block.children[0].marks.includes('strong') && block.children[0].marks.includes('em')}
+            <i><strong>{block.children[0].text}</strong></i>
         {:else}
             <p>
                 {#each block.children as child}
@@ -22,6 +24,8 @@
                         <i>{child.text}</i>
                     {:else if child.marks.includes('strong')}
                         <strong>{child.text}</strong>
+                    {:else if child.marks.includes('strong') && child.marks.includes('em')}
+                        <i><strong>{child.text}</strong></i>
                     {:else}
                         {child.text}
                     {/if}
