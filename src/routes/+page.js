@@ -14,7 +14,6 @@ export async function load() {
                 tags: posts[i].tags
             })
         }
-        console.log(postsList)
         return {postsList}
     }
         return {

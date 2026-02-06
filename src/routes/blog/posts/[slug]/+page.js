@@ -11,7 +11,6 @@ export async function load({params: {slug}}) {
             publishedAt: post[0].publishedAt,
             content: post[0].content
         }
-        console.log(postContent)
         return {postContent}
     }
     return {
